@@ -1,6 +1,6 @@
 {
   "name": "getflights-pro",
-  "version": "1.4.1",
+  "version": "1.4.4",
   "description": "Ask questions about your Getflights bookings in plain language, straight from Claude. Find a booking and see where its ticketing stands, keep track of your deadlines, start the day with an overview of departures, your wallet, open options and what is due, ask Getflights for an offer for a group, a charter or a private jet, find flights for up to 9 travellers and hold one as an option, and see how your company's events are going: who registered, who booked and what it adds up to.",
   "author": { "name": "Getflights" }
 }

@@ -34,8 +34,9 @@ Then run `/mcp` and sign in with your Getflights Pro login.
 
 ### In ChatGPT
 
-Getflights Pro is also available for ChatGPT, with the same skills, at
-`https://github.com/getflights/chatgpt`. Ask your Getflights contact how to add it.
+Getflights Pro is also available for ChatGPT, with the same skills. Until it is listed in
+ChatGPT's plugin directory, add it under **Plugins › Add marketplace** with
+`https://github.com/getflights/chatgpt`; the README there has the steps.
 
 ## What you can do
 
