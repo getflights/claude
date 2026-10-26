@@ -149,7 +149,13 @@ the cost the way Getflights Pro does:
 ## Which booking
 
 Name each booking by its `name` (for example `261015 ACME SN AGP 41 PAX`) and departure
-date, and add your own reference (`external-reference`) when it is set. If someone wants
+date, and add your own reference (`external-reference`) when it is set. Never name it by a
+number or id. In a sentence, put the name in double quotes:
+
+> The full payment for "261015 ACME SN AGP 41 PAX" (departs 15 October) is due Friday
+> 2 October, in 3 days.
+
+A name that stands alone, such as in a table cell, goes without quotes. If someone wants
 the booking reference, look it up with `pnr_search` filtered on `sales-order` by the id. A
 group can be split over several references (`ABC123` and `DEF456`); give them all.
 

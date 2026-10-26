@@ -250,8 +250,9 @@ opportunity_read
 ```
 
 Report:
-- that the request is sent, with its name and your reference. The name reads like
-  `270210 Acme Travel 30 pax - BRU (BE), VLC (ES)`;
+- that the request is sent, with its name in double quotes and your reference:
+  `Your request "270210 Acme Travel 30 pax - BRU (BE), VLC (ES)" (your reference: Valencia
+  away game) is sent.` Never name a request by a number or id;
 - its legs, one line each. A leg's `name` reads like
   `20270210 - 30 pax - BRU (BE) ✈ VLC (ES)`. Leave out an empty `flight-time`;
 - what happens next: a confirmation e-mail is on its way, and Getflights' group team
@@ -277,6 +278,7 @@ opportunity_search
 A request's `departure-date` is filled in shortly after it is sent, so a request sent a
 minute ago may not show up by date yet; search on the reference instead.
 
+Name each request by its `name`, in double quotes in a sentence, with your reference.
 Then:
 
 - **It became a booking** when `sales-order` is set. Say so, and that `reading-a-booking`
