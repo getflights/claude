@@ -1,6 +1,6 @@
 ---
 name: campaign-summary
-description: Summarise one of your company's campaigns — an event whose attendees book through Getflights, such as a congress booking tool or a pre-registration — in the same layout every time: how many attendees are on the list, how far they got with registering, how many booked, and what the bookings add up to. Use when someone asks how their event is going, how many people registered or booked, what an event costs so far, or when a scheduled task asks to run a campaign summary.
+description: "Summarise one of your company's campaigns — an event whose attendees book through Getflights, such as a congress booking tool or a pre-registration — in the same layout every time: how many attendees are on the list, how far they got with registering, how many booked, and what the bookings add up to. Use when someone asks how their event is going, how many people registered or booked, what an event costs so far, or when a scheduled task asks to run a campaign summary."
 ---
 
 # Summarising a campaign
