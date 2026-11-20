@@ -20,10 +20,13 @@ You need:
 4. Start a new chat and ask something, for example *"What's on today?"*. The first time,
    Claude asks you to connect Getflights Pro: sign in with your Getflights Pro login.
 
-On a Team or Enterprise plan, an administrator can also add the plugin once for everyone
-in your organization.
-
 ### In Claude Code
+
+```
+/plugin install getflights-pro --marketplace https://github.com/getflights/claude.git
+```
+
+On Claude Code versions before 2.1.275, add the marketplace first:
 
 ```
 /plugin marketplace add getflights/claude
@@ -31,6 +34,30 @@ in your organization.
 ```
 
 Then run `/mcp` and sign in with your Getflights Pro login.
+
+### For administrators: Claude Code for your whole organization
+
+To install the plugin for everyone in your organization who uses Claude Code, add this to
+your organization's
+[managed settings](https://code.claude.com/docs/en/plugins/org) — on claude.ai under
+**Organization settings › Claude Code › Managed settings**, through your device management,
+or in a `managed-settings.json` file:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "getflights-pro": {
+      "source": { "source": "github", "repo": "getflights/claude" }
+    }
+  },
+  "enabledPlugins": {
+    "getflights-pro@getflights-pro": true
+  }
+}
+```
+
+The plugin installs at the start of each person's next Claude Code session. Everyone still
+signs in with their own Getflights Pro login, so Claude only ever sees their own account.
 
 ### In ChatGPT
 
